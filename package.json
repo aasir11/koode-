@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "KOODE job platform backend with AI matching",
   "main": "koode-backend.js",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "start": "node koode-backend.js",
     "dev": "node koode-backend.js"
   },
-  "keywords": ["koode", "job", "platform", "ai"],
+  "keywords": [
+    "koode",
+    "job",
+    "platform",
+    "ai"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -15,9 +23,5 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "@anthropic-ai/sdk": "^0.11.0"
-  },
- "engines": {
-  "node": "24.x"
-},
-  
+  }
 }
